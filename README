@@ -1,0 +1,14 @@
+QuickTag
+
+This is a very simple parser for a modified HTML
+
+The idea was to bring HTML class and id attributes inline with CSS and jQuery selectors, so instead of:
+
+<div class="class-one class-two" id="my-id"
+
+You can use:
+<div#my-id.class-one.class-two
+
+It's not a huge difference, but its something that's always bothered me, and it only took half an hour to write the parser, so I thought I'd share it.
+
+index.php gives a very simple usage example.
