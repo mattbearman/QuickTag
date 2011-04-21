@@ -3,8 +3,6 @@
 class QuickTag
 {
 	private $qtString; // The QuickTag formatted string we're passing
-	private $idRegEx = '[a-z][a-z0-9\-_]*'; // regular expression to find ids
-	private $classRegEx = '[a-z\-_][a-z0-9\-_]*'; // regular expression to find classes
 	private $charset = '[a-z0-9\-_]'; // characters for classes and ids, aware this isn't strict enough, resons are in docs
 	private $execTime = 0;
 	
